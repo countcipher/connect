@@ -1,0 +1,122 @@
+/*===GLOBAL===*/
+.header{
+    border-bottom: 2px solid #fff;
+    margin-bottom: 0 px;
+    background: linear-gradient(gray, white, gray);
+    text-align: right;
+}
+.header img{
+    height: 50px;
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+.header h2{
+    color: #fff;
+}
+.container-fluid{
+    height: 100%;
+}
+body, html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+body{
+    /*background-color: #222;*/
+    background: #fff;
+}
+i{
+    font-size: 20px;
+}
+#user_dashboard{
+    padding: 0;
+    background: url("../images/geometric-1732847_640.jpg");
+    background-size: cover;
+    height: 100%;
+    min-height: 700px;
+    overflow: auto;
+}
+#user_dashboard img{
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+}
+#user_dashboard ul{
+    height: 100% !important;
+    background: rgba(0,0,0,.7);
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #6A959D;
+}
+#user_dashboard li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin: 0 !important;
+}
+#user_dashboard li:hover{
+    background: rgba(0,0,0,.5);
+}
+#user_dashboard a{
+    margin: 0;
+}
+#user_dashboard a{
+    color: #6A959D;
+    text-decoration: none;
+}
+#user_dashboard a:hover{
+    color: #D1E2E5;
+}
+#user_dashboard li{
+    margin-bottom: 25px;
+}
+#dashboard_inner_wrapper{
+    overflow: auto;
+    height: 100%;
+}
+/*===INDEX.PHP===*/
+#login_panel{
+    color: #fff;
+    background: #333;
+    height: 100%;
+}
+#login_panel h1{
+    text-align: center;
+    color: #fff;
+}
+
+
+/*===CONNECT.PHP===*/
+#content{
+    height: 100%;
+}
+#message_feed ul{
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+    max-height: 400px;
+    overflow: auto;
+}
+#message_feed li{
+    border-bottom: 2px solid #fff;
+    background: #ddd;
+    padding: 15px;
+}
+#message_feed li:nth-child(odd){
+    background: #eee;
+}
+#message_feed{
+    padding: 0;
+}
+#message_input_form{
+    text-align: center;
+    width: 100%;
+}
+#send_message{
+    margin: auto;
+    display: block;
+}
+input{
+    margin-bottom: 15px;
+}

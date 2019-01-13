@@ -1,0 +1,25 @@
+#add_user_content{
+    padding-top: 15px;
+}
+.success{
+    background: #DFF0D8;
+    width: 80%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 2px #99CB84;
+}
+.error{
+    background: #BE1E2D;
+    width: 80%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 2px #AE7F7F;
+    color: #fff;
+    margin-bottom: 15px;
+}

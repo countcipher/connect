@@ -1,0 +1,21 @@
+#user_profile{
+    padding-top: 15px;
+}
+#user_profile img{
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+#user_profile h2{
+    text-align: center;
+}
+.success{
+    background: #DFF0D8;
+    width: 80%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 2px #99CB84;
+}

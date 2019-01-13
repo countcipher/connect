@@ -1,0 +1,23 @@
+.error{
+    background: #BE1E2D;
+    width: 80%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 2px #AE7F7F;
+    color: #fff;
+    margin-bottom: 15px;
+}
+form{
+    text-align: center;
+    
+}
+
+.form-group{
+    padding: 0;
+}
+input[type="submit"]{
+    display: block;
+}

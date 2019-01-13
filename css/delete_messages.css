@@ -1,0 +1,35 @@
+#delete_messages_modal{
+    position: fixed;
+    background: rgba(0,0,0,.9);
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    text-align: center;
+    display: none;
+}
+#delete_messages_modal h2{
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+#delete_messages_div{
+    text-align: center
+}
+#delete_messages_div h2{
+    margin-bottom: 25px;
+}
+.modal-button{
+    margin: 25px;
+}
+.success{
+    background: #DFF0D8;
+    width: 80%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 2px #99CB84;
+}

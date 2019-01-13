@@ -1,0 +1,21 @@
+#content{
+    overflow: hidden;
+}
+#users_table{
+    height: 400px;
+    overflow: auto;
+    padding: 0;
+}
+table{
+    background: #fff;
+    text-align: center !important;
+    margin: 0;
+}
+table img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+td{
+    vertical-align: middle !important;
+}
